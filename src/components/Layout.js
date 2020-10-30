@@ -51,7 +51,9 @@ export default function Layout(props) {
 
     return (
         <StyledLayout>
-            <Header authenticated={authState.authenticated} />
+            <Header
+                authenticated={authState.authenticated} avatar={authState.photoUrl}
+            />
             <main>
                 <Switch>
                     <Route exact path="/" render={props =>

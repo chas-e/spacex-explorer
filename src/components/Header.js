@@ -25,12 +25,22 @@ const StyledHeader = styled.header`
     div {
         display: flex;
         align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
     }
 
     span {
+        display: flex;
+        justify-content: space-evenly;
         font-weight: 700;
         cursor: pointer;
         color: var(--secondary-brand-color);
+
 
     }
 `;
